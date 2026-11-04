@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="canonical" href="https://piegeon.de/TermsOfService" />
+<title>Piegeon Games: Terms of Service</title>
+<style>
+  :root {
+    --ink: #1c1c1a;
+    --paper: #fbfaf7;
+    --muted: #6b6a64;
+    --accent: #c2632b;
+    --line: #e3e0d8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.65;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+  header {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+  }
+  .eyebrow {
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    font-weight: 600;
+    margin: 0 0 8px;
+  }
+  h1 {
+    font-size: 34px;
+    margin: 0 0 8px;
+    letter-spacing: -0.01em;
+  }
+  .meta {
+    color: var(--muted);
+    font-size: 14px;
+    margin: 0;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 40px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  h3 {
+    font-size: 16px;
+    margin: 24px 0 8px;
+  }
+  p, li {
+    font-size: 16px;
+    color: #2b2a27;
+  }
+  ul {
+    padding-left: 22px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border: 1px solid var(--line);
+    vertical-align: top;
+  }
+  th {
+    background: #f3efe6;
+    color: var(--ink);
+    width: 32%;
+  }
+  a {
+    color: var(--accent);
+    text-decoration: underline;
+    text-decoration-color: #e0b896;
+  }
+  a:hover { text-decoration-color: var(--accent); }
+  .note {
+    background: #f3efe6;
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    font-size: 14px;
+    color: #4a4943;
+    margin: 16px 0;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  /* Language switch */
+  .lang-bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 20px 0 0;
+  }
+  .lang-btn {
+    font: inherit;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 14px;
+    border: 1px solid var(--ink);
+    background: transparent;
+    color: var(--ink);
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .lang-btn[aria-pressed="true"] {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .lang-select {
+    font: inherit;
+    font-size: 13px;
+    padding: 6px 10px;
+    border: 1px solid var(--line);
+    background: #fff;
+    color: var(--ink);
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  .lang-hint {
+    flex-basis: 100%;
+    font-size: 12px;
+    color: var(--muted);
+    margin: 2px 0 0;
+  }
+  [data-lang] { display: none; }
+  [data-lang].active { display: block; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Piegeon</p>
+    <h1 id="title">Terms of Service</h1>
+    <p class="meta" id="updated">Last updated: November 4, 2026</p>
+
+    <div class="lang-bar" role="group" aria-label="Language">
+      <button class="lang-btn" type="button" data-set="en" aria-pressed="true">English</button>
+      <button class="lang-btn" type="button" data-set="pl" aria-pressed="false">Polski</button>
+      <select class="lang-select" id="otherLang" aria-label="Other languages">
+        <option value="">Other languages…</option>
+        <option value="bg">Български</option>
+        <option value="cs">Čeština</option>
+        <option value="da">Dansk</option>
+        <option value="de">Deutsch</option>
+        <option value="el">Ελληνικά</option>
+        <option value="es">Español</option>
+        <option value="et">Eesti</option>
+        <option value="fi">Suomi</option>
+        <option value="fr">Français</option>
+        <option value="ga">Gaeilge</option>
+        <option value="hr">Hrvatski</option>
+        <option value="hu">Magyar</option>
+        <option value="is">Íslenska</option>
+        <option value="it">Italiano</option>
+        <option value="lt">Lietuvių</option>
+        <option value="lv">Latviešu</option>
+        <option value="mt">Malti</option>
+        <option value="nl">Nederlands</option>
+        <option value="no">Norsk</option>
+        <option value="pt">Português</option>
+        <option value="ro">Română</option>
+        <option value="sk">Slovenčina</option>
+        <option value="sl">Slovenščina</option>
+        <option value="sv">Svenska</option>
+        <option value="uk">Українська</option>
+        <option value="tl">Filipino</option>
+        <option value="ja">日本語</option>
+      </select>
+      <p class="lang-hint" id="langHint">Other languages open an automatic Google translation, for convenience only. The English and Polish versions are the official ones.</p>
+    </div>
+  </header>
+
+  <!-- ===================== ENGLISH ===================== -->
+  <div data-lang="en" lang="en" class="active">
+
+    <p>These Terms of Service (the "Terms") apply to every game and app published by Piegeon on Google Play, including Cats vs Dogs, Shiba no Tsuri - Fishing game, Searious Battles, Talking Pigeon and Roid Rage Rob, and any future Piegeon apps (each an "App," together the "Apps"). By downloading, installing or using an App, you agree to these Terms. If you don't agree, please don't use the Apps.</p>
+    <p>These Terms are also the terms and conditions for electronic services (<em>regulamin świadczenia usług drogą elektroniczną</em>) required under Polish law. You can read them for free at any time at <a href="https://piegeon.de/TermsOfService">piegeon.de/TermsOfService</a>, and save or print them.</p>
+
+    <h2>1. Who We Are</h2>
+    <p>The Apps are developed and provided by:</p>
+    <table>
+      <tr><th>Name</th><td>Albert Cynarzewski, publishing as Piegeon</td></tr>
+      <tr><th>Address</th><td>Bydgoska 37/4a, 89-300 Wyrzysk, Poland</td></tr>
+      <tr><th>Email</th><td><a href="mailto:albert2g07@gmail.com">albert2g07@gmail.com</a></td></tr>
+      <tr><th>Support email</th><td><a href="mailto:diddyklein69@gmail.com">diddyklein69@gmail.com</a></td></tr>
+      <tr><th>Website</th><td><a href="https://piegeon.de">piegeon.de</a></td></tr>
+    </table>
+    <p>In these Terms, "we," "us" and "our" mean Piegeon, and "you" means the person using an App.</p>
+
+    <h2>2. Other Terms That Apply</h2>
+    <ul>
+      <li><strong>Google Play Terms of Service.</strong> You download the Apps and make purchases through Google Play, so Google's own terms also apply to your use of Google Play: <a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener">play.google.com/about/play-terms</a>.</li>
+      <li><strong>Privacy policies.</strong> How each App handles data is explained in that App's privacy policy, linked from its Google Play listing and on <a href="https://piegeon.de">piegeon.de</a>. The privacy policies are separate documents and are not replaced by these Terms.</li>
+      <li><strong>Third-party services.</strong> Some features use services run by others (Google Play, Google Play Games, AdMob and its ad partners). Those services are governed by their own terms, and we aren't responsible for how they work or for content on external websites that ads or links may open.</li>
+    </ul>
+
+    <h2>3. What the Apps Are &amp; Technical Requirements</h2>
+    <p>The Apps are casual mobile games and entertainment apps. Each App is free to download. Some Apps show ads, and some offer optional in-app purchases. What a specific App offers is described on its Google Play listing.</p>
+    <p>To use the Apps you need:</p>
+    <ul>
+      <li>an Android device that meets the minimum Android version shown on the App's Google Play listing;</li>
+      <li>the Google Play Store app and a Google account (to download the App and make purchases);</li>
+      <li>an internet connection for ads, purchases, cloud saves and updates (most gameplay works offline);</li>
+      <li>a Google Play Games account, if you want to use cloud saving in Apps that support it.</li>
+    </ul>
+    <p>The service agreement for an App starts when you install it, and you can end it at any time, free of charge, by uninstalling the App.</p>
+    <p><strong>Age.</strong> Each App's age rating is shown on Google Play. If you're under the age of majority where you live, you need a parent's or guardian's permission to use the Apps and to accept these Terms.</p>
+
+    <h2>4. Your License to Use the Apps</h2>
+    <p>We give you a personal, non-exclusive, non-transferable, revocable license to use the Apps on devices you own or control, for your own non-commercial entertainment. You may not:</p>
+    <ul>
+      <li>copy, sell, rent, or redistribute the Apps or their content;</li>
+      <li>decompile, reverse engineer or modify the Apps, except where the law expressly allows it;</li>
+      <li>use cheats, hacks, modified versions, bots, or exploits, or tamper with ads, purchases or saved data;</li>
+      <li>use the Apps in any way that breaks the law or harms other people, us, or our partners.</li>
+    </ul>
+    <p>All content in the Apps (code, art, characters, music, sounds, names and logos) belongs to Piegeon or our licensors and is protected by copyright and other laws. Nothing in these Terms transfers any ownership to you.</p>
+    <p><strong>Content you create.</strong> Some Apps let you create content, for example voice recordings in Talking Pigeon. That content stays yours, is processed on your device as described in the App's privacy policy, and you're responsible for what you record and share. Don't use the Apps to create or share content that is illegal, hateful, or violates other people's rights.</p>
+    <p><strong>Feedback.</strong> If you send us ideas or suggestions, we may use them to improve the Apps without owing you payment or credit.</p>
+
+    <h2>5. Ads</h2>
+    <p>Free Apps are supported by ads, delivered through Google AdMob and its partner ad networks as described in each App's privacy policy. Rewarded ads are always optional: you choose whether to watch one in exchange for an in-game reward. We don't control the content of every individual ad, but our ad partners must follow Google's ad policies, and in Apps with a children's audience, ads are restricted as described in that App's privacy policy. If an ad fails to load or a reward isn't granted because of a technical problem, contact us and we'll try to fix it.</p>
+
+    <h2>6. In-App Purchases</h2>
+
+    <h3>How purchases work</h3>
+    <p>All in-app purchases are made through Google Play's billing system. Google Play handles the payment, your payment method, receipts and any taxes. We never see or store your card or bank details. The price shown in Google Play at the time of purchase, in your local currency and including any applicable VAT, is the final price.</p>
+
+    <h3>What you're buying</h3>
+    <p>In-app purchases give you a license to use digital content inside an App, for example removing ads, unlocking items or levels, or receiving in-game currency. In-game currency and items:</p>
+    <ul>
+      <li>have no real-world monetary value and can't be exchanged for money, sold, or transferred to other people or other Apps;</li>
+      <li>can only be used inside the App they were bought in;</li>
+      <li>are delivered immediately after Google Play confirms your payment.</li>
+    </ul>
+    <p>We may change the prices, rewards and game balance of in-game items for future purchases, for example to keep a game fair and fun. This never takes away items you've already paid for (see Section 9).</p>
+    <p>Non-consumable purchases (like "remove ads") are linked to your Google account and can be restored with the "Restore purchases" option where an App offers it, or by reinstalling the App with the same Google account. Consumable purchases (like in-game currency) are stored in your game progress. If you uninstall the App or clear its data without a cloud save, consumable items may be lost.</p>
+
+    <h3>Right of withdrawal (EEA and UK consumers)</h3>
+    <p>If you're a consumer in the EEA or UK, you normally have 14 days to withdraw from an online purchase. For digital content that isn't on a physical medium, this right ends once delivery begins, provided you gave your express consent to immediate delivery and acknowledged that you would lose the right of withdrawal.</p>
+    <div class="note">By confirming an in-app purchase, you ask us to deliver the digital content immediately, and you acknowledge that you lose your right of withdrawal once the content has been delivered. You'll receive confirmation of each purchase from Google Play by email.</div>
+    <p>This doesn't affect your rights if the content is faulty (see Section 7).</p>
+
+    <h3>Refunds</h3>
+    <ul>
+      <li><strong>Within 48 hours</strong> of a purchase, you can usually request a refund directly through Google Play: <a href="https://support.google.com/googleplay/answer/2479637" target="_blank" rel="noopener">Google Play refund help</a>.</li>
+      <li><strong>After 48 hours</strong>, contact us at the support email in Section 1. Include your Google Play order number (it starts with "GPA.") and tell us what went wrong.</li>
+      <li>If a purchase wasn't delivered or doesn't work, we'll fix it, deliver it again, or refund it, as described in Section 7.</li>
+    </ul>
+
+    <h3>Children and purchases</h3>
+    <p>Some Apps are made for a mixed audience that includes children. Under Google Play's terms, children need a parent's or guardian's permission to use Google Play, and should only make purchases with that permission. Parents can require a password or authentication for every purchase in Google Play's settings, and can manage purchase approvals with Google Family Link. If a child made a purchase without permission, contact Google Play or us and we'll help.</p>
+
+    <h2>7. Faulty Content &amp; Complaints</h2>
+    <p>If you're a consumer, the law requires the Apps and any digital content you buy to work as described. Under the Polish Consumer Rights Act (<em>ustawa o prawach konsumenta</em>) and EU Directive 2019/770, we're responsible for any lack of conformity of content supplied in a single purchase that appears within two years of delivery. If something you bought doesn't work as it should (for example, a purchase is never delivered, or a paid feature is broken), you can ask us to:</p>
+    <ul>
+      <li>fix it or deliver it again;</li>
+      <li>and if we can't or don't do that in a reasonable time, or the problem is serious, reduce the price or refund you. Refunds are made within 14 days of receiving your request.</li>
+    </ul>
+    <p><strong>How to complain:</strong> email the support address in Section 1 with the App name, a short description of the problem, what you'd like us to do, and your Google Play order number if it's about a purchase. We'll reply by email within 14 days of receiving your complaint. If you're a consumer and we don't reply within 14 days, your complaint is treated as accepted.</p>
+    <p>If we can't agree, consumers in Poland can get free help from a local consumer ombudsman (<em>miejski lub powiatowy rzecznik konsumentów</em>) or the Trade Inspection (<em>Inspekcja Handlowa</em>). More information is available at <a href="https://prawakonsumenta.uokik.gov.pl" target="_blank" rel="noopener">prawakonsumenta.uokik.gov.pl</a>. Consumers elsewhere in the EU can contact their national consumer authority or a European Consumer Centre.</p>
+
+    <h2>8. Saved Progress &amp; Cloud Saves</h2>
+    <p>Game progress is saved on your device. Some Apps also offer cloud saving through Google Play Games Services, which is provided by Google. We do our best to keep your progress safe, but we can't guarantee that saved data will never be lost, for example if you clear the App's data, switch Google accounts, or a third-party service has an outage. Where a loss of progress is our fault and includes paid content, we'll restore that content where we can.</p>
+
+    <h2>9. Updates, Changes &amp; Availability</h2>
+    <p>We may update the Apps to fix bugs, add content, or meet legal or technical requirements. Some updates may be required to keep using an App. We'll never take away paid content you've bought through an update, unless we have to for legal or security reasons, and in that case we'll offer you a fair replacement or refund.</p>
+    <p>We may stop offering an App in the future. If we do, we'll try to give notice in the App or on its Google Play listing, and if you lose access to paid content as a result, you'll keep any rights to a refund that the law gives you.</p>
+
+    <h2>10. Ending Your Use of the Apps</h2>
+    <p>You can stop using an App at any time by uninstalling it. We may suspend or restrict your access to an App if you seriously or repeatedly break Section 4 (for example by cheating, hacking, or abusing purchases or refunds), after warning you where that's possible. Sections 4, 11 and 13 continue to apply after you stop using an App.</p>
+
+    <h2>11. Our Liability</h2>
+    <p>We make the Apps with care, but they're provided as games for entertainment, "as is," and may sometimes contain bugs or be temporarily unavailable. To the extent the law allows, we aren't liable for indirect losses, such as loss of profits or data that you could have backed up.</p>
+    <p>Nothing in these Terms limits or excludes:</p>
+    <ul>
+      <li>our liability for damage caused intentionally or through gross negligence;</li>
+      <li>our liability for death or personal injury;</li>
+      <li>any rights you have as a consumer that can't be limited by contract, including your rights if digital content is faulty.</li>
+    </ul>
+
+    <h2>12. Changes to These Terms</h2>
+    <p>We may update these Terms when the Apps change or the law requires it. We'll change the "Last updated" date above, and for important changes we'll give notice in the Apps or on this page at least 14 days before they take effect. If you don't agree with the new Terms, you can stop using the Apps by uninstalling them. Changes never apply to purchases you made before the change, unless they're in your favor.</p>
+
+    <h2>13. Governing Law &amp; Disputes</h2>
+    <p>These Terms are governed by Polish law. If you're a consumer living in another country, you also keep the protection of any mandatory consumer laws of your country of residence, and you can bring a claim in the courts where you live.</p>
+
+    <h2>14. Language Versions</h2>
+    <p>These Terms are available in English and Polish. Both versions have the same content. For consumers who are Polish citizens, the Polish version is the basis for interpretation. Translations into other languages are automatic and for convenience only.</p>
+
+    <h2>15. General</h2>
+    <ul>
+      <li>If any part of these Terms is found invalid, the rest stays in effect.</li>
+      <li>If we don't enforce a part of these Terms right away, we can still enforce it later.</li>
+      <li>You can't transfer your rights under these Terms to someone else. We may transfer the Apps and these Terms to another provider (for example if Piegeon becomes a company), as long as your rights aren't reduced, and we'll let you know if that happens.</li>
+      <li>We're not responsible for delays or failures caused by events outside our reasonable control, such as outages of Google services, internet failures, or natural disasters.</li>
+      <li>We may give you notices about these Terms in the Apps, on this page, or by email if you've contacted us. You can send notices to us at the contact details in Section 1.</li>
+      <li>These Terms, together with each App's privacy policy and the Google Play Terms of Service, are the whole agreement between you and us about the Apps.</li>
+    </ul>
+
+    <h2>16. Contact Us</h2>
+    <p>For questions about these Terms, purchases, refunds or complaints, contact us at:</p>
+    <p><strong>Support email:</strong> <a href="mailto:diddyklein69@gmail.com">diddyklein69@gmail.com</a><br>
+    <strong>Email:</strong> <a href="mailto:albert2g07@gmail.com">albert2g07@gmail.com</a><br>
+    <strong>Address:</strong> Albert Cynarzewski, Bydgoska 37/4a, 89-300 Wyrzysk, Poland</p>
+
+    <footer>
+      These Terms apply to all Piegeon apps on Google Play. Each app's privacy policy is a separate document.
+    </footer>
+  </div>
+
+  <!-- ===================== POLSKI ===================== -->
+  <div data-lang="pl" lang="pl">
+
+    <p>Niniejszy Regulamin (dalej „Regulamin”) dotyczy wszystkich gier i aplikacji wydanych przez Piegeon w Google Play, w tym Cats vs Dogs, Shiba no Tsuri - Fishing game, Searious Battles, Talking Pigeon i Roid Rage Rob, a także przyszłych aplikacji Piegeon (każda z nich dalej „Aplikacja”, łącznie „Aplikacje”). Pobierając, instalując lub korzystając z Aplikacji, akceptujesz Regulamin. Jeśli go nie akceptujesz, nie korzystaj z Aplikacji.</p>
+    <p>Niniejszy dokument jest również regulaminem świadczenia usług drogą elektroniczną w rozumieniu ustawy z dnia 18 lipca 2002 r. o świadczeniu usług drogą elektroniczną. Możesz się z nim zapoznać w każdej chwili, nieodpłatnie, pod adresem <a href="https://piegeon.de/TermsOfService">piegeon.de/TermsOfService</a>, a także go zapisać lub wydrukować.</p>
+
+    <h2>1. Kim jesteśmy</h2>
+    <p>Aplikacje tworzy i udostępnia:</p>
+    <table>
+      <tr><th>Imię i nazwisko</th><td>Albert Cynarzewski, publikujący jako Piegeon</td></tr>
+      <tr><th>Adres</th><td>ul. Bydgoska 37/4a, 89-300 Wyrzysk, Polska</td></tr>
+      <tr><th>E-mail</th><td><a href="mailto:albert2g07@gmail.com">albert2g07@gmail.com</a></td></tr>
+      <tr><th>E-mail pomocy technicznej</th><td><a href="mailto:diddyklein69@gmail.com">diddyklein69@gmail.com</a></td></tr>
+      <tr><th>Strona internetowa</th><td><a href="https://piegeon.de">piegeon.de</a></td></tr>
+    </table>
+    <p>W Regulaminie „my” i „nasz” oznacza Piegeon, a „Ty” oznacza osobę korzystającą z Aplikacji.</p>
+
+    <h2>2. Inne obowiązujące warunki</h2>
+    <ul>
+      <li><strong>Warunki korzystania z usługi Google Play.</strong> Aplikacje pobierasz i kupujesz przez Google Play, więc do korzystania z Google Play mają zastosowanie również warunki Google: <a href="https://play.google.com/about/play-terms/" target="_blank" rel="noopener">play.google.com/about/play-terms</a>.</li>
+      <li><strong>Polityki prywatności.</strong> Sposób przetwarzania danych przez każdą Aplikację opisuje jej polityka prywatności, dostępna w karcie Aplikacji w Google Play oraz na <a href="https://piegeon.de">piegeon.de</a>. Polityki prywatności są osobnymi dokumentami i Regulamin ich nie zastępuje.</li>
+      <li><strong>Usługi podmiotów trzecich.</strong> Niektóre funkcje korzystają z usług innych podmiotów (Google Play, Gry Google Play, AdMob i jego partnerzy reklamowi). Usługi te podlegają własnym warunkom, a my nie odpowiadamy za ich działanie ani za treść zewnętrznych stron otwieranych przez reklamy lub linki.</li>
+    </ul>
+
+    <h2>3. Czym są Aplikacje i wymagania techniczne</h2>
+    <p>Aplikacje to proste gry mobilne i aplikacje rozrywkowe. Każdą Aplikację można pobrać bezpłatnie. Niektóre Aplikacje wyświetlają reklamy, a niektóre oferują opcjonalne zakupy w aplikacji. Zakres funkcji danej Aplikacji opisuje jej karta w Google Play.</p>
+    <p>Do korzystania z Aplikacji potrzebujesz:</p>
+    <ul>
+      <li>urządzenia z Androidem w wersji co najmniej takiej, jak podana w karcie Aplikacji w Google Play;</li>
+      <li>aplikacji Sklep Google Play i konta Google (do pobrania Aplikacji i zakupów);</li>
+      <li>połączenia z internetem do reklam, zakupów, zapisu w chmurze i aktualizacji (większość rozgrywki działa offline);</li>
+      <li>konta Gry Google Play, jeśli chcesz korzystać z zapisu w chmurze w Aplikacjach, które go obsługują.</li>
+    </ul>
+    <p>Umowa o świadczenie usługi zostaje zawarta z chwilą zainstalowania Aplikacji. Możesz ją zakończyć w każdej chwili, bezpłatnie, odinstalowując Aplikację.</p>
+    <p><strong>Wiek.</strong> Kategoria wiekowa każdej Aplikacji jest podana w Google Play. Jeśli nie masz ukończonych 18 lat (lub innego wieku pełnoletności w Twoim kraju), potrzebujesz zgody rodzica lub opiekuna na korzystanie z Aplikacji i akceptację Regulaminu.</p>
+
+    <h2>4. Licencja na korzystanie z Aplikacji</h2>
+    <p>Udzielamy Ci osobistej, niewyłącznej, nieprzenoszalnej i odwołalnej licencji na korzystanie z Aplikacji na urządzeniach, które posiadasz lub kontrolujesz, wyłącznie do własnej, niekomercyjnej rozrywki. Nie wolno Ci:</p>
+    <ul>
+      <li>kopiować, sprzedawać, wynajmować ani rozpowszechniać Aplikacji lub ich zawartości;</li>
+      <li>dekompilować, odtwarzać kodu (inżynieria wsteczna) ani modyfikować Aplikacji, z wyjątkiem sytuacji, w których prawo wyraźnie na to pozwala;</li>
+      <li>używać kodów, hacków, zmodyfikowanych wersji, botów ani exploitów, ani ingerować w reklamy, zakupy lub zapisane dane;</li>
+      <li>korzystać z Aplikacji w sposób niezgodny z prawem lub szkodzący innym osobom, nam lub naszym partnerom.</li>
+    </ul>
+    <p>Cała zawartość Aplikacji (kod, grafika, postacie, muzyka, dźwięki, nazwy i logotypy) należy do Piegeon lub naszych licencjodawców i jest chroniona prawem autorskim oraz innymi przepisami. Regulamin nie przenosi na Ciebie żadnych praw własności.</p>
+    <p><strong>Treści tworzone przez Ciebie.</strong> Niektóre Aplikacje pozwalają tworzyć treści, np. nagrania głosu w Talking Pigeon. Treści te pozostają Twoje, są przetwarzane na Twoim urządzeniu zgodnie z polityką prywatności danej Aplikacji, a Ty odpowiadasz za to, co nagrywasz i udostępniasz. Nie używaj Aplikacji do tworzenia ani udostępniania treści niezgodnych z prawem, nawołujących do nienawiści lub naruszających prawa innych osób.</p>
+    <p><strong>Sugestie.</strong> Jeśli przekażesz nam pomysły lub sugestie, możemy wykorzystać je do ulepszania Aplikacji bez obowiązku zapłaty lub wskazania autorstwa.</p>
+
+    <h2>5. Reklamy</h2>
+    <p>Bezpłatne Aplikacje są finansowane z reklam dostarczanych przez Google AdMob i współpracujące sieci reklamowe, opisane w polityce prywatności każdej Aplikacji. Reklamy z nagrodą są zawsze opcjonalne: sam decydujesz, czy obejrzeć reklamę w zamian za nagrodę w grze. Nie kontrolujemy treści każdej pojedynczej reklamy, ale nasi partnerzy reklamowi muszą przestrzegać zasad reklamowych Google, a w Aplikacjach przeznaczonych również dla dzieci reklamy są ograniczone w sposób opisany w polityce prywatności danej Aplikacji. Jeśli reklama się nie załaduje lub nagroda nie zostanie przyznana z powodu błędu technicznego, skontaktuj się z nami, a postaramy się to naprawić.</p>
+
+    <h2>6. Zakupy w aplikacji</h2>
+
+    <h3>Jak działają zakupy</h3>
+    <p>Wszystkie zakupy w aplikacji odbywają się przez system płatności Google Play. Google Play obsługuje płatność, metodę płatności, potwierdzenia zakupu i podatki. Nigdy nie widzimy ani nie przechowujemy danych Twojej karty ani rachunku bankowego. Ostateczną ceną jest cena wyświetlona w Google Play w chwili zakupu, w Twojej walucie lokalnej i z należnym podatkiem VAT.</p>
+
+    <h3>Co kupujesz</h3>
+    <p>Zakup w aplikacji daje Ci licencję na korzystanie z treści cyfrowych w Aplikacji, na przykład usunięcie reklam, odblokowanie przedmiotów lub poziomów albo otrzymanie waluty w grze. Waluta i przedmioty w grze:</p>
+    <ul>
+      <li>nie mają realnej wartości pieniężnej i nie można ich wymienić na pieniądze, sprzedać ani przekazać innym osobom lub do innych Aplikacji;</li>
+      <li>można wykorzystać wyłącznie w Aplikacji, w której zostały kupione;</li>
+      <li>są dostarczane natychmiast po potwierdzeniu płatności przez Google Play.</li>
+    </ul>
+    <p>Możemy zmieniać ceny, nagrody i balans przedmiotów w grze dla przyszłych zakupów, np. aby gra była uczciwa i ciekawa. Nigdy nie odbiera to przedmiotów, za które już zapłaciłeś (zob. pkt 9).</p>
+    <p>Zakupy jednorazowe trwałe (np. „usuń reklamy”) są przypisane do Twojego konta Google i można je przywrócić opcją „Przywróć zakupy”, jeśli Aplikacja ją oferuje, lub instalując Aplikację ponownie na tym samym koncie Google. Zakupy zużywalne (np. waluta w grze) są przechowywane w postępie gry. Jeśli odinstalujesz Aplikację lub wyczyścisz jej dane bez zapisu w chmurze, przedmioty zużywalne mogą zostać utracone.</p>
+
+    <h3>Prawo odstąpienia od umowy (konsumenci z EOG i Wielkiej Brytanii)</h3>
+    <p>Jeśli jesteś konsumentem z EOG lub Wielkiej Brytanii, co do zasady możesz odstąpić od umowy zawartej na odległość w ciągu 14 dni. W przypadku treści cyfrowych niedostarczanych na nośniku materialnym prawo to wygasa z chwilą rozpoczęcia dostarczania, jeśli wyraziłeś wyraźną zgodę na natychmiastowe dostarczenie i przyjąłeś do wiadomości utratę prawa odstąpienia od umowy (art. 38 ust. 1 pkt 13 ustawy o prawach konsumenta).</p>
+    <div class="note">Potwierdzając zakup w aplikacji, żądasz natychmiastowego dostarczenia treści cyfrowych i przyjmujesz do wiadomości, że po ich dostarczeniu tracisz prawo odstąpienia od umowy. Potwierdzenie każdego zakupu otrzymasz od Google Play e-mailem.</div>
+    <p>Nie wpływa to na Twoje uprawnienia w przypadku wadliwych treści (zob. pkt 7).</p>
+
+    <h3>Zwroty</h3>
+    <ul>
+      <li><strong>W ciągu 48 godzin</strong> od zakupu zwykle możesz poprosić o zwrot bezpośrednio w Google Play: <a href="https://support.google.com/googleplay/answer/2479637?hl=pl" target="_blank" rel="noopener">pomoc Google Play dotycząca zwrotów</a>.</li>
+      <li><strong>Po upływie 48 godzin</strong> napisz do nas na adres pomocy technicznej z pkt 1. Podaj numer zamówienia Google Play (zaczyna się od „GPA.”) i opisz problem.</li>
+      <li>Jeśli zakup nie został dostarczony lub nie działa, naprawimy go, dostarczymy ponownie lub zwrócimy pieniądze, zgodnie z pkt 7.</li>
+    </ul>
+
+    <h3>Dzieci i zakupy</h3>
+    <p>Niektóre Aplikacje są przeznaczone dla mieszanej grupy odbiorców, w tym dzieci. Zgodnie z warunkami Google Play dzieci potrzebują zgody rodzica lub opiekuna na korzystanie z Google Play i powinny dokonywać zakupów wyłącznie za tą zgodą. Rodzice mogą w ustawieniach Google Play wymagać hasła lub uwierzytelnienia przy każdym zakupie, a także zatwierdzać zakupy w Google Family Link. Jeśli dziecko dokonało zakupu bez zgody, skontaktuj się z Google Play lub z nami, a pomożemy.</p>
+
+    <h2>7. Wadliwe treści i reklamacje</h2>
+    <p>Jeśli jesteś konsumentem, prawo wymaga, aby Aplikacje i kupione treści cyfrowe działały zgodnie z opisem. Zgodnie z ustawą o prawach konsumenta i dyrektywą (UE) 2019/770 odpowiadamy za brak zgodności z umową treści dostarczonych w ramach jednorazowego zakupu, który ujawni się w ciągu dwóch lat od ich dostarczenia. Jeśli kupiona treść nie działa tak, jak powinna (np. zakup nie został dostarczony albo płatna funkcja nie działa), możesz żądać:</p>
+    <ul>
+      <li>doprowadzenia jej do zgodności z umową lub ponownego dostarczenia;</li>
+      <li>a jeśli nie zrobimy tego w rozsądnym terminie lub wada jest istotna, obniżenia ceny lub zwrotu pieniędzy. Zwrotu dokonujemy w ciągu 14 dni od otrzymania Twojego oświadczenia.</li>
+    </ul>
+    <p><strong>Jak złożyć reklamację:</strong> napisz na adres pomocy technicznej z pkt 1, podając nazwę Aplikacji, krótki opis problemu, swoje żądanie oraz numer zamówienia Google Play, jeśli reklamacja dotyczy zakupu. Odpowiemy e-mailem w ciągu 14 dni od otrzymania reklamacji. Jeśli jesteś konsumentem i nie odpowiemy w tym terminie, uważa się, że uznaliśmy reklamację (art. 7a ustawy o prawach konsumenta).</p>
+    <p>Jeśli nie dojdziemy do porozumienia, konsumenci w Polsce mogą skorzystać z bezpłatnej pomocy miejskiego lub powiatowego rzecznika konsumentów albo Inspekcji Handlowej. Więcej informacji znajdziesz na <a href="https://prawakonsumenta.uokik.gov.pl" target="_blank" rel="noopener">prawakonsumenta.uokik.gov.pl</a>. Konsumenci z innych krajów UE mogą zwrócić się do krajowego organu ochrony konsumentów lub Europejskiego Centrum Konsumenckiego.</p>
+
+    <h2>8. Postęp gry i zapis w chmurze</h2>
+    <p>Postęp gry jest zapisywany na Twoim urządzeniu. Niektóre Aplikacje oferują też zapis w chmurze przez usługi Gry Google Play, dostarczane przez Google. Dbamy o bezpieczeństwo Twojego postępu, ale nie możemy zagwarantować, że zapisane dane nigdy nie zostaną utracone, np. gdy wyczyścisz dane Aplikacji, zmienisz konto Google lub usługa zewnętrzna ulegnie awarii. Jeśli utrata postępu nastąpi z naszej winy i obejmie płatne treści, w miarę możliwości je przywrócimy.</p>
+
+    <h2>9. Aktualizacje, zmiany i dostępność</h2>
+    <p>Możemy aktualizować Aplikacje, aby naprawiać błędy, dodawać treści lub spełniać wymogi prawne i techniczne. Niektóre aktualizacje mogą być konieczne do dalszego korzystania z Aplikacji. Aktualizacja nigdy nie odbierze Ci kupionych płatnych treści, chyba że będzie to konieczne ze względów prawnych lub bezpieczeństwa. W takim przypadku zaproponujemy Ci uczciwy zamiennik lub zwrot pieniędzy.</p>
+    <p>W przyszłości możemy przestać oferować daną Aplikację. W takim przypadku postaramy się poinformować o tym w Aplikacji lub w jej karcie w Google Play, a jeśli w efekcie utracisz dostęp do płatnych treści, zachowasz wszelkie prawo do zwrotu, które przysługuje Ci z mocy prawa.</p>
+
+    <h2>10. Zakończenie korzystania z Aplikacji</h2>
+    <p>Możesz w każdej chwili przestać korzystać z Aplikacji, odinstalowując ją. Możemy zawiesić lub ograniczyć Twój dostęp do Aplikacji, jeśli w poważny lub powtarzający się sposób naruszasz pkt 4 (np. oszukujesz, hakujesz lub nadużywasz zakupów albo zwrotów), po uprzednim ostrzeżeniu, jeśli jest to możliwe. Punkty 4, 11 i 13 obowiązują także po zakończeniu korzystania z Aplikacji.</p>
+
+    <h2>11. Nasza odpowiedzialność</h2>
+    <p>Tworzymy Aplikacje starannie, ale są to gry rozrywkowe udostępniane w obecnej postaci i mogą czasem zawierać błędy lub być chwilowo niedostępne. W zakresie dozwolonym przez prawo nie odpowiadamy za szkody pośrednie, takie jak utracone korzyści lub dane, których kopię mogłeś wykonać.</p>
+    <p>Regulamin w żaden sposób nie ogranicza ani nie wyłącza:</p>
+    <ul>
+      <li>naszej odpowiedzialności za szkody wyrządzone umyślnie lub wskutek rażącego niedbalstwa;</li>
+      <li>naszej odpowiedzialności za śmierć lub uszkodzenie ciała;</li>
+      <li>Twoich uprawnień konsumenckich, których nie można ograniczyć umową, w tym uprawnień w przypadku wadliwych treści cyfrowych.</li>
+    </ul>
+
+    <h2>12. Zmiany Regulaminu</h2>
+    <p>Możemy zmieniać Regulamin, gdy zmieniają się Aplikacje lub wymaga tego prawo. Zaktualizujemy wtedy datę „Ostatnia aktualizacja”, a o istotnych zmianach poinformujemy w Aplikacjach lub na tej stronie co najmniej 14 dni przed ich wejściem w życie. Jeśli nie akceptujesz nowego Regulaminu, możesz przestać korzystać z Aplikacji, odinstalowując je. Zmiany nie dotyczą zakupów dokonanych przed zmianą, chyba że są dla Ciebie korzystniejsze.</p>
+
+    <h2>13. Prawo właściwe i spory</h2>
+    <p>Regulamin podlega prawu polskiemu. Jeśli jesteś konsumentem mieszkającym w innym kraju, zachowujesz ochronę bezwzględnie obowiązujących przepisów konsumenckich kraju zamieszkania i możesz dochodzić roszczeń przed sądami w miejscu zamieszkania.</p>
+
+    <h2>14. Wersje językowe</h2>
+    <p>Regulamin jest dostępny w języku angielskim i polskim. Obie wersje mają tę samą treść. W przypadku konsumentów będących obywatelami polskimi podstawą wykładni jest wersja polska. Tłumaczenia na inne języki są automatyczne i mają charakter wyłącznie pomocniczy.</p>
+
+    <h2>15. Postanowienia końcowe</h2>
+    <ul>
+      <li>Jeśli którekolwiek postanowienie Regulaminu okaże się nieważne, pozostałe obowiązują nadal.</li>
+      <li>Jeśli nie skorzystamy od razu z któregoś postanowienia Regulaminu, nadal możemy z niego skorzystać później.</li>
+      <li>Nie możesz przenieść swoich praw z Regulaminu na inną osobę. Możemy przenieść Aplikacje i Regulamin na innego dostawcę (np. jeśli Piegeon stanie się spółką), o ile nie ograniczy to Twoich praw, i poinformujemy Cię o tym.</li>
+      <li>Nie odpowiadamy za opóźnienia lub niewykonanie zobowiązań z przyczyn od nas niezależnych, takich jak awarie usług Google, awarie internetu czy klęski żywiołowe.</li>
+      <li>Powiadomienia dotyczące Regulaminu możemy przekazywać w Aplikacjach, na tej stronie lub e-mailem, jeśli się z nami kontaktowałeś. Swoje powiadomienia możesz kierować na dane kontaktowe z pkt 1.</li>
+      <li>Regulamin wraz z polityką prywatności danej Aplikacji i Warunkami korzystania z usługi Google Play stanowi całość ustaleń między Tobą a nami dotyczących Aplikacji.</li>
+    </ul>
+
+    <h2>16. Kontakt</h2>
+    <p>W sprawie Regulaminu, zakupów, zwrotów lub reklamacji skontaktuj się z nami:</p>
+    <p><strong>E-mail pomocy technicznej:</strong> <a href="mailto:diddyklein69@gmail.com">diddyklein69@gmail.com</a><br>
+    <strong>E-mail:</strong> <a href="mailto:albert2g07@gmail.com">albert2g07@gmail.com</a><br>
+    <strong>Adres:</strong> Albert Cynarzewski, ul. Bydgoska 37/4a, 89-300 Wyrzysk, Polska</p>
+
+    <footer>
+      Regulamin dotyczy wszystkich aplikacji Piegeon w Google Play. Polityka prywatności każdej aplikacji jest osobnym dokumentem.
+    </footer>
+  </div>
+
+</div>
+
+<script>
+(function () {
+  var ui = {
+    en: { title: "Terms of Service", updated: "Last updated: November 4, 2026", other: "Other languages…",
+          hint: "Other languages open an automatic Google translation, for convenience only. The English and Polish versions are the official ones." },
+    pl: { title: "Regulamin", updated: "Ostatnia aktualizacja: 4 listopada 2026 r.", other: "Inne języki…",
+          hint: "Inne języki otwierają automatyczne tłumaczenie Google, wyłącznie pomocniczo. Oficjalne są wersje angielska i polska." }
+  };
+  var buttons = document.querySelectorAll(".lang-btn");
+  var blocks = document.querySelectorAll("[data-lang]");
+  var select = document.getElementById("otherLang");
+
+  function setLang(lang) {
+    if (!ui[lang]) lang = "en";
+    blocks.forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-lang") === lang); });
+    buttons.forEach(function (btn) { btn.setAttribute("aria-pressed", btn.getAttribute("data-set") === lang ? "true" : "false"); });
+    document.documentElement.lang = lang;
+    document.getElementById("title").textContent = ui[lang].title;
+    document.getElementById("updated").textContent = ui[lang].updated;
+    document.getElementById("langHint").textContent = ui[lang].hint;
+    select.options[0].textContent = ui[lang].other;
+    document.title = "Piegeon Games: " + ui[lang].title;
+    try {
+      if (location.protocol.indexOf("http") === 0 && history.replaceState) {
+        history.replaceState(null, "", lang === "pl" ? "#pl" : location.pathname + location.search);
+      }
+    } catch (e) { /* preview/sandbox: URL update not allowed, switching still works */ }
+  }
+
+  buttons.forEach(function (btn) {
+    btn.addEventListener("click", function () { setLang(btn.getAttribute("data-set")); });
+  });
+
+  select.addEventListener("change", function () {
+    var tl = select.value;
+    if (!tl) return;
+    var url = "https://translate.google.com/translate?sl=en&tl=" + encodeURIComponent(tl) +
+              "&u=" + encodeURIComponent("https://piegeon.de/TermsOfService");
+    window.open(url, "_blank", "noopener");
+    select.value = "";
+  });
+
+  var start = "en";
+  if (location.hash === "#pl") start = "pl";
+  else if (!location.hash && (navigator.language || "").toLowerCase().indexOf("pl") === 0) start = "pl";
+  setLang(start);
+})();
+</script>
+</body>
+</html>
